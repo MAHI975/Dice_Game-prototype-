@@ -1,0 +1,95 @@
+/*ALL ELEMENTS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./images\ 2.1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-div {
+    display: flex;
+}
+/*-------------------*/
+/*PLAYER BOXES*/
+.player-1 {
+    width: 560px;
+    height: 650px;
+    transform: translate(30%, 10%);
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.player-2 {
+    width: 560px;
+    height: 650px;
+    transform: translate(30%, 10%);
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*----------------------*/
+/*Inside Player Boxes*/
+.name {
+    transform: translate(0, 50px);
+    text-align: center;
+    color: rgb(10, 6, 48);
+    font-family: 'Courgette', cursive;
+    letter-spacing: 2px;
+}
+.new-game {
+    position: absolute;
+    transform: translate(-50%, 15px);
+    color: black;
+    font-size: 20px;
+}
+.global-score {
+    color: #FFF;
+    font-size: 100px;
+    text-align: center;
+    transform: translate(0, 100%);
+    font-weight: 800;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.current-score {
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 700;
+    width: 130px;
+    height: 70px;
+    font-size: 20px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    transform: translate(175%, 350%);
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.current-score-number {
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.roll-dice, .hold {
+    font-weight: 600;
+    font-size: 20px;
+}
+.roll-dice {
+    transform: translate(-10%, 250px);
+}
+.hold {
+    transform: translate(-10%, 270px);
+}
+.final-score {
+    font-size: 17px;
+    width: 150px;
+    transform: translate(-50%, 290px);
+    text-align: center;
+    background-color: #FFFDE4;
+    border: 2px solid black;
+}
